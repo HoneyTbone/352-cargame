@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Box
   - Customer
+  - Boost
+  - Ob
   layers:
   - Default
   - TransparentFX
