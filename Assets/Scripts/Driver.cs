@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Driver : MonoBehaviour
 {
@@ -33,7 +34,24 @@ public class Driver : MonoBehaviour
                 Destroy(other.gameObject);
             }
         }
+        else if(other.tag == "Restart")
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
+        else if(other.tag == "Water")
+        {
+            moveSpeed = 1.5f;
+        }
     }
+
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if(other.tag == "Water")
+        {
+            moveSpeed = 3f;
+        }
+    }
+
     private void OnCollisionEnter2D(Collision2D other)
     {
         if (other.gameObject.tag == "Ob")

@@ -11276,46 +11276,6 @@ Transform:
   m_Father: {fileID: 1061228328}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1864270192 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6401387604672465578, guid: c263f423f80ec4940974923f30b2bf6e, type: 3}
-  m_PrefabInstance: {fileID: 6401387604185041882}
-  m_PrefabAsset: {fileID: 0}
---- !u!50 &1864270197
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1864270192}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 1
-  m_Constraints: 0
---- !u!114 &1864270199
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1864270192}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 82f297c6e3308ff47800a6f464b39ac7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hasPackageColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
-  noPackageColor: {r: 1, g: 0, b: 0, a: 1}
 --- !u!4 &1864270203 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6401387604672465577, guid: c263f423f80ec4940974923f30b2bf6e, type: 3}
@@ -14432,37 +14392,9 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 6401387604207064786, guid: c263f423f80ec4940974923f30b2bf6e, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.25
-      objectReference: {fileID: 0}
-    - target: {fileID: 6401387604207064786, guid: c263f423f80ec4940974923f30b2bf6e, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.25
-      objectReference: {fileID: 0}
-    - target: {fileID: 6401387604207064786, guid: c263f423f80ec4940974923f30b2bf6e, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.94
-      objectReference: {fileID: 0}
-    - target: {fileID: 6401387604672465576, guid: c263f423f80ec4940974923f30b2bf6e, type: 3}
-      propertyPath: m_SortingOrder
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 6401387604672465577, guid: c263f423f80ec4940974923f30b2bf6e, type: 3}
       propertyPath: m_RootOrder
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6401387604672465577, guid: c263f423f80ec4940974923f30b2bf6e, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6401387604672465577, guid: c263f423f80ec4940974923f30b2bf6e, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6401387604672465577, guid: c263f423f80ec4940974923f30b2bf6e, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.2045
       objectReference: {fileID: 0}
     - target: {fileID: 6401387604672465577, guid: c263f423f80ec4940974923f30b2bf6e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14507,22 +14439,6 @@ PrefabInstance:
     - target: {fileID: 6401387604672465578, guid: c263f423f80ec4940974923f30b2bf6e, type: 3}
       propertyPath: m_Name
       value: Car
-      objectReference: {fileID: 0}
-    - target: {fileID: 6401387604672465582, guid: c263f423f80ec4940974923f30b2bf6e, type: 3}
-      propertyPath: m_Size.x
-      value: 1.4649297
-      objectReference: {fileID: 0}
-    - target: {fileID: 6401387604672465582, guid: c263f423f80ec4940974923f30b2bf6e, type: 3}
-      propertyPath: m_Size.y
-      value: 3.2221017
-      objectReference: {fileID: 0}
-    - target: {fileID: 6401387604672465582, guid: c263f423f80ec4940974923f30b2bf6e, type: 3}
-      propertyPath: m_Offset.x
-      value: -0.0066417647
-      objectReference: {fileID: 0}
-    - target: {fileID: 6401387604672465582, guid: c263f423f80ec4940974923f30b2bf6e, type: 3}
-      propertyPath: m_Offset.y
-      value: -0.013283821
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c263f423f80ec4940974923f30b2bf6e, type: 3}

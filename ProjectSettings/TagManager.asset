@@ -8,6 +8,10 @@ TagManager:
   - Customer
   - Boost
   - Ob
+  - Water
+  - Restart
+  - Person
+  - Waypoints
   layers:
   - Default
   - TransparentFX

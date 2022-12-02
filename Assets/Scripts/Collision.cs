@@ -33,6 +33,7 @@ public class Collision : MonoBehaviour
             Debug.Log("Delivered a Package");
             hasPackage = false;
             sR.color = noPackageColor;
+            Destroy(other.gameObject);
         }else if(other.tag == "Box" && hasPackage==true)
         {
             Debug.Log("You already have a Package");
