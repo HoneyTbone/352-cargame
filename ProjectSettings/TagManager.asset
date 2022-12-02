@@ -12,6 +12,7 @@ TagManager:
   - Restart
   - Person
   - Waypoints
+  - Cop
   layers:
   - Default
   - TransparentFX
@@ -19,7 +20,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - AiIgnore
   - 
   - 
   - 

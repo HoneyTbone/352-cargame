@@ -9,6 +9,7 @@ public class Driver : MonoBehaviour
 
     [SerializeField] float moveSpeed = 0.1f;
 
+
     // Start is called before the first frame update
     void Start()
     {
@@ -30,7 +31,7 @@ public class Driver : MonoBehaviour
         {
             if (moveSpeed < 10)
             {
-                moveSpeed = moveSpeed + 1f;
+                moveSpeed = moveSpeed + 0.5f;
                 Destroy(other.gameObject);
             }
         }
