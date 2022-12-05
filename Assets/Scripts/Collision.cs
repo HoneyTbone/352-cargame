@@ -9,7 +9,7 @@ public class Collision : MonoBehaviour
     [SerializeField] Color noPackageColor = Color.white;
 
     SpriteRenderer sR;
-    private bool hasPackage = false;
+    public bool hasPackage = false;
     private void Start()
     {
         sR = GetComponent<SpriteRenderer>();
